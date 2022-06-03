@@ -85,8 +85,8 @@ liveClanActivityTile(text) => Padding(
         child: Stack(
           children: [
             Positioned.fill(
-                child: Image.network(
-              "https://www.gifgit.com/site-images/toolpage-images/gradient-tool-example1.jpg",
+                child: Image.asset(
+              "assets/gradient.jpg",
               fit: BoxFit.cover,
             )),
             Positioned.fill(
